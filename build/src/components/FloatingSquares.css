@@ -1,0 +1,125 @@
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: #f03597;
+  display: fixed;
+  z-index: -1;
+  margin: 5px;
+  box-shadow: #8d2059 5px 5px;
+}
+.FloatingSquares {
+  padding: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#square-1 {
+  rotate: 20deg;
+  left: 5px;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes hoverOver {
+  0% {
+    translate: 0px 0px;
+  }
+  50% {
+    translate: 0px 10px;
+  }
+  100% {
+    translate: 0px 0px;
+  }
+}
+#square-2 {
+  rotate: -20deg;
+  width: 20px;
+  height: 20px;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+#square-3 {
+  rotate: 20deg;
+  width: 40px;
+  height: 40px;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#square-4 {
+  width: 25px;
+  height: 25px;
+  rotate: 10deg;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+#square-5 {
+  rotate: 25deg;
+  width: 15px;
+  height: 15px;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#square-6 {
+  rotate: -10deg;
+  left: 50vw;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+#square-7 {
+  rotate: 20deg;
+  left: 5px;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#square-8 {
+  rotate: -20deg;
+  width: 20px;
+  height: 20px;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+#square-9 {
+  rotate: 20deg;
+  width: 40px;
+  height: 40px;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#square-10 {
+  width: 25px;
+  height: 25px;
+  rotate: 10deg;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+#square-11 {
+  rotate: 25deg;
+  width: 15px;
+  height: 15px;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#square-12 {
+  rotate: -10deg;
+  left: 50vw;
+  animation-name: hoverOver;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}

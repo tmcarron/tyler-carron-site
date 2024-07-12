@@ -1,0 +1,44 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.Heading {
+  background-color: linear-gradient(#9235f0 #f03597);
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: input-mono, monospace;
+
+  font-style: normal;
+  font-weight: 100;
+  color: #f03597;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #f03597 1px solid;
+}
+#profile-pic {
+  width: 100px;
+  height: 100px;
+  display: inline;
+  transform: translate(-10px);
+}
+
+.heading-group {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+  .Heading ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  li {
+    padding: 10px;
+  }
+}
